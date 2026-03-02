@@ -1,16 +1,60 @@
-# React + Vite
+# Online Library System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Online Library System built using **React (Vite)**, **React Router**, and **Redux Toolkit**.
 
-Currently, two official plugins are available:
+This application allows users to:
+- View book categories
+- Browse books by category
+- Search books by title or author
+- View detailed book information
+- Add new books to the library
+- Handle invalid routes with a 404 page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Functional Components + Hooks)
+- Vite
+- React Router DOM
+- Redux Toolkit
+- React Redux
+- CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+Follow the steps below to run the project locally.
+
+---
+
+### 1️ Clone the Repository
+
+git clone https://github.com/deepak-0103/online-library.git
+
+2️ Navigate to the Project Folder
+cd online-library
+3️ Install Dependencies
+
+Make sure Node.js (v16 or later) is installed.
+
+npm install
+
+If needed, manually install required packages:
+
+npm install react-router-dom
+npm install @reduxjs/toolkit react-redux
+4️ Start the Development Server
+npm run dev
+
+You will see output similar to:
+
+Local: http://localhost:5173/
+5️ Open in Browser
+
+Open your browser and visit:
+
+http://localhost:5173/
+
+The application should now be running successfully.
