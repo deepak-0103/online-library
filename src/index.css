@@ -18,3 +18,16 @@ body {
   margin-right: 15px;
   text-decoration: none;
 }
+
+.grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 8px;
+}
